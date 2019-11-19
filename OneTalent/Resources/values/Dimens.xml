@@ -1,0 +1,12 @@
+﻿<resources>
+  <dimen name="textsize_24">24sp</dimen>
+  <dimen name="status_height_24">24dp</dimen>
+  <dimen name="paddingandmargin">10dp</dimen>
+  <dimen name="textsize_14">14sp</dimen>
+  <dimen name="textsize_20">20sp</dimen>
+  <dimen name="margin">20dp</dimen>
+  <dimen name="edittextHeight">45dp</dimen>
+  <dimen name="buttonHeight">30dp</dimen>
+  <dimen name="edittextHeightFeedback">150dp</dimen>
+
+</resources> 

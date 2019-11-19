@@ -1,0 +1,17 @@
+D:\OneTalent\employeemobileapp\Utility\bin\Debug\netstandard2.0\Utility.deps.json
+D:\OneTalent\employeemobileapp\Utility\bin\Debug\netstandard2.0\Utility.dll
+D:\OneTalent\employeemobileapp\Utility\bin\Debug\netstandard2.0\Utility.pdb
+D:\OneTalent\employeemobileapp\Utility\obj\Debug\netstandard2.0\Utility.csproj.CoreCompileInputs.cache
+D:\OneTalent\employeemobileapp\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfoInputs.cache
+D:\OneTalent\employeemobileapp\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfo.cs
+D:\OneTalent\employeemobileapp\Utility\obj\Debug\netstandard2.0\Utility.dll
+D:\OneTalent\employeemobileapp\Utility\obj\Debug\netstandard2.0\Utility.pdb
+D:\gitpractice\Project\Utility\bin\Debug\netstandard2.0\Utility.deps.json
+D:\gitpractice\Project\Utility\bin\Debug\netstandard2.0\Utility.dll
+D:\gitpractice\Project\Utility\bin\Debug\netstandard2.0\Utility.pdb
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.csprojAssemblyReference.cache
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.csproj.CoreCompileInputs.cache
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfoInputs.cache
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.AssemblyInfo.cs
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.dll
+D:\gitpractice\Project\Utility\obj\Debug\netstandard2.0\Utility.pdb

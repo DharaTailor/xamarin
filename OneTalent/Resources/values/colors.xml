@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#36425d</color>
+    <color name="colorAccent">#3498db</color>
+    <color name="backgroundColor">#36425d</color>
+    <color name="fieldbg">#77839c</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="edittextcolor">#424e68</color>
+  <color name="button_color">#2b98f8</color>
+  <color name="initiatColor">#ff8e56</color>
+  <color name="rejetColor_revokeColor">#ff4d66</color>
+ 
+  <color name="BottomnavColor">#28334b</color>
+  <color name="hintColor">#a5aec2</color>
+  <color name="feedbackButtonColor">#2b78e4</color>
+  <color name="textcolor">#36425d</color>
+  <color name="dateColor">#75829d</color>
+  <color name="textColor">#95a0b7</color>
+  <color name="acceptedColor">#23d692</color>
+  <color name="inProgressColor">#fac545</color>
+  <color name="notStarted">#adb3c6</color>
+</resources>

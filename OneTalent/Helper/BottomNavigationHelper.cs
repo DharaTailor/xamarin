@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Support.Design.Internal;
+using Android.Support.Design.Widget;
+using Android.Views;
+using Android.Widget;
+using Java.Lang;
+using Java.Lang.Reflect;
+
+namespace OneTalent
+{
+   public class BottomNavigationHelper
+    {
+        public static void DisableShiftMode(BottomNavigationView view)
+        {
+            BottomNavigationMenuView menuView = (BottomNavigationMenuView)view.GetChildAt(0);
+            try
+            {
+                Field shiftingMode = menuView.Class.GetDeclaredField("mShiftingMode");
+                shiftingMode.Accessible = true; shiftingMode.SetBoolean(menuView, false);
+                shiftingMode.Accessible = false;
+                for (int i = 0; i < menuView.ChildCount; i++)
+                {
+                    BottomNavigationItemView item = (BottomNavigationItemView)menuView.GetChildAt(i); item.SetShiftingMode(false);
+                    item.SetChecked(item.ItemData.IsChecked);
+                }
+            }
+            catch (NoSuchFieldException )
+            {
+                Console.WriteLine("ERROR NO SUCH FIELD", "Unable to get shift mode field");
+            }
+            catch (IllegalAccessException )
+            {
+                Console.WriteLine("ERROR ILLEGAL ALG", "Unable to change value of shift mode");
+            }
+        } 
+   }
+}

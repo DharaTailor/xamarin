@@ -1,0 +1,17 @@
+D:\OneTalent\employeemobileapp\Database\Database\bin\Debug\netstandard2.0\Database.deps.json
+D:\OneTalent\employeemobileapp\Database\Database\bin\Debug\netstandard2.0\Database.dll
+D:\OneTalent\employeemobileapp\Database\Database\bin\Debug\netstandard2.0\Database.pdb
+D:\OneTalent\employeemobileapp\Database\Database\obj\Debug\netstandard2.0\Database.csproj.CoreCompileInputs.cache
+D:\OneTalent\employeemobileapp\Database\Database\obj\Debug\netstandard2.0\Database.AssemblyInfoInputs.cache
+D:\OneTalent\employeemobileapp\Database\Database\obj\Debug\netstandard2.0\Database.AssemblyInfo.cs
+D:\OneTalent\employeemobileapp\Database\Database\obj\Debug\netstandard2.0\Database.dll
+D:\OneTalent\employeemobileapp\Database\Database\obj\Debug\netstandard2.0\Database.pdb
+D:\gitpractice\Project\Database\Database\bin\Debug\netstandard2.0\Database.deps.json
+D:\gitpractice\Project\Database\Database\bin\Debug\netstandard2.0\Database.dll
+D:\gitpractice\Project\Database\Database\bin\Debug\netstandard2.0\Database.pdb
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.csprojAssemblyReference.cache
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.csproj.CoreCompileInputs.cache
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.AssemblyInfoInputs.cache
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.AssemblyInfo.cs
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.dll
+D:\gitpractice\Project\Database\Database\obj\Debug\netstandard2.0\Database.pdb

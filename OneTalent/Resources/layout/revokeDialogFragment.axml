@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="?dialogPreferredPadding"
+	android:background="@color/backgroundColor">
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/round_button">
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/reqrevoke"
+			android:textColor="@color/white"
+			android:textSize="@dimen/textsize_20"
+			android:textAlignment="center"/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:background="@color/white"
+			android:layout_marginTop="10dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/revokeReason"
+			android:layout_marginTop="@dimen/paddingandmargin"
+			android:textColor="@color/white"
+			android:id="@+id/textView1" />
+
+		<EditText
+			android:id="@+id/editRevoke"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/white"
+			android:background="@drawable/edittext_border"
+			android:padding="@dimen/paddingandmargin"
+			android:inputType="textMultiLine"
+			android:textSize="@dimen/textsize_14"
+			android:gravity="top"
+			android:scrollbars="vertical"
+			android:layout_marginTop="5dp" />
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:layout_marginTop="@dimen/paddingandmargin">
+			<Button
+				android:id="@+id/buttonCancel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/cancel"
+				android:textAllCaps="false"
+				android:background="@drawable/round_button"
+				android:backgroundTint="@color/button_color"
+				android:textColor="@color/white"
+				android:textSize="18sp"
+				android:layout_weight="1" />
+			<Button
+				android:id="@+id/buttonSave"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/save"
+				android:textAllCaps="false"
+				android:background="@drawable/round_button"
+				android:backgroundTint="@color/button_color"
+				android:textColor="@color/white"
+				android:layout_marginLeft="@dimen/textsize_20"
+				android:textSize="18sp"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>

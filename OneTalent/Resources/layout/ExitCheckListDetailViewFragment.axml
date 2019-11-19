@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/backgroundColor">
+
+	<include layout="@layout/toolbar"/>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="@dimen/paddingandmargin"
+			android:orientation="vertical">
+
+			<!--Not started Status-->
+			<TextView
+				android:id="@+id/NotStartedStatusTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:text="@string/notstart"
+				android:textColor="@color/black"
+				android:gravity="center_vertical"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:visibility="visible"
+				android:background="@drawable/border"/>
+			<!--In Progress Status-->
+			<TextView
+				android:id="@+id/InProgressStatusTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:text="@string/inprogress"
+				android:textColor="@color/black"
+				android:gravity="center_vertical"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:visibility="gone"
+				android:background="@drawable/border"/>
+			<!--Completed Status-->
+			<TextView
+				android:id="@+id/CompletedStatusTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:text="@string/complete"
+				android:textColor="@color/black"
+				android:gravity="center_vertical"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:visibility="gone"
+				android:background="@drawable/border"/>
+			
+			<!--ActivityName-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="24dp"
+				android:layout_marginTop="10dp"
+				android:text="@string/activityName"
+				android:textColor="@color/fieldbg"
+				android:textSize="14sp"/>
+			
+			<TextView
+				android:id="@+id/ActivityNameTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:visibility="visible"
+				android:textColor="@color/white"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:gravity="center_vertical"
+				android:background="@drawable/round_edittext"
+				android:layout_marginTop="@dimen/paddingandmargin"/>
+			
+			<!--Description-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:text="@string/description"
+				android:textColor="@color/fieldbg"
+				android:textSize="14sp"/>
+			
+			<TextView
+				android:id="@+id/DescriptionTextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="visible"
+				android:padding="@dimen/paddingandmargin"
+				android:textColor="@color/white"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+			
+			<!--Domain-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:text="@string/domain"
+				android:textColor="@color/fieldbg"
+				android:textSize="@dimen/textsize_14"/>
+			
+			<TextView
+				android:id="@+id/DomainTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:visibility="visible"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:gravity="center_vertical"
+				android:textColor="@color/white"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+			
+			<!--Assigned-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="24dp"
+				android:layout_marginTop="10dp"
+				android:text="@string/assigned"
+				android:textColor="@color/fieldbg"
+				android:textSize="14sp"/>
+			
+			<TextView
+				android:id="@+id/AssignedTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:visibility="visible"
+				android:textColor="@color/white"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:gravity="center_vertical"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+			
+			<!--Last Updated On-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:text="@string/lastUpdatedOn"
+				android:textColor="@color/fieldbg"
+				android:textSize="@dimen/textsize_14"/>
+			
+			<TextView
+				android:id="@+id/lastUpdatedOnTextView"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:visibility="visible"
+				android:gravity="center_vertical"
+				android:textColor="@color/white"
+				android:paddingLeft="@dimen/paddingandmargin"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+			
+			<!--Remarks-->
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/status_height_24"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:text="@string/remarks"
+				android:textColor="@color/fieldbg"
+				android:textSize="@dimen/textsize_14"/>
+			
+			<!--Remarks of 1st Domain Owner-->
+			<TextView
+				android:id="@+id/DomainOwner1TextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@color/fieldbg"
+				android:text="@string/domainOwnerOne"/>
+			
+			<TextView
+				android:id="@+id/remark1TextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="visible"
+				android:padding="@dimen/paddingandmargin"
+				android:textColor="@color/white"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+			
+			<!--Remarks of 1st Domain Owner-->
+			<TextView
+				android:id="@+id/DomainOwner2TextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@color/fieldbg"
+				android:text="@string/domainOwnerTwo"
+				android:layout_marginTop="@dimen/paddingandmargin"/>
+			
+			<TextView
+				android:id="@+id/remark2TextView"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="visible"
+				android:textColor="@color/white"
+				android:padding="@dimen/paddingandmargin"
+				android:layout_marginTop="@dimen/paddingandmargin"
+				android:background="@drawable/round_edittext"/>
+	
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>
